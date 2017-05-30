@@ -38,8 +38,8 @@ public class ConfigurablePerson {
         english.printAttributes();
         polish.printAttributes();
 
-        Integer[] otherArray = (Integer[]) ResourceFinder.getResource(R.integer1DArrays.otherArray, "");
-        Integer[][] testIntegerArray = (Integer[][]) ResourceFinder.getResource(R.integer2DArrays.testIntegerArray, "");
+        Integer[] otherArray = (Integer[]) ResourceFinder.getResource(R.integer1DArrays.otherArray);
+        Integer[][] testIntegerArray = (Integer[][]) ResourceFinder.getResource(R.integer2DArrays.testIntegerArray);
         Double[] oneDimDoubleArray = (Double[]) ResourceFinder.getResource(R.double1DArrays.oneDimDoubleArray, "en");
         Double[][] twoDimDoubleArray = (Double[][]) ResourceFinder.getResource(R.double2DArrays.twoDimDoubleArray, "en");
 
